@@ -1,7 +1,7 @@
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f8fafc; /* light background */
-  color: #0f172a;
+  color: #f8fafc; /* light background */
+  background-color: #000000;
 }
 
 /* Elementor related variables */
@@ -13,8 +13,6 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, #0f172a, #1e293b);
-  color: #fff;
   padding: 100px 0;
   text-align: center;
 }
