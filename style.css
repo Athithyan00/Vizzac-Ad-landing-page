@@ -1,0 +1,38 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc; /* light background */
+  color: #0f172a;
+}
+
+/* Elementor related variables */
+.elementor-element, .elementor-lightbox {
+  --swiper-theme-color: #000;
+  --swiper-navigation-size: 44px;
+  --swiper-pagination-bullet-size: 6px;
+  --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+header {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.btn-main {
+  background-color: #ff6b00;
+  border: none;
+  padding: 12px 28px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+section {
+  padding: 80px 0;
+}
