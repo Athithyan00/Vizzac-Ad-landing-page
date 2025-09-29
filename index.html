@@ -1,71 +1,1312 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Landing Page</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-  <!-- AOS Animation CSS -->
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header>
+      <div class="banner">
+        <img src="./assets/white logo.png" alt="" class="logo" />
+        <section class="hero-section text-center">
+          <div class="red-banner">
+            MANUFACTURING AND SUPPLYING HIGH-PERFORMANCE INDUSTRIAL MACHINES
+          </div>
+          <br />
+          <div class="black-box">
+            <h1>
+              Precision. Innovation. Reliability. Vizzac Laser – Empowering
+              Industries, One Machine at a Time.
+            </h1>
+            <p>Transforming Ideas into Industrial Excellence.</p>
+          </div>
+        </section>
 
-  <!-- Custom CSS -->
-  <link href="style.css" rel="stylesheet" />
-</head>
-<body>
+        <a
+          href="#contact-form"
+          class="btn btn-offer call-button"
+          data-aos="zoom-in"
+          data-aos-delay="400"
+          >Enquire Now</a
+        >
+      </div>
+    </header>
+    <!-- Testimonial Section -->
+    <section id="testimonial" class="testimonial-section">
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-md-12 col-lg-7">
+              <div
+                class="owl-carousel testimonial-carousel"
+                data-aos="fadeIn"
+                data-aos-delay="0.3s"
+              >
+                <!-- Testimonial 1 – 5 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/rol.jpg"
+                        alt="Elango.M"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p>
+                          The Roll Forming Machine we purchased has greatly
+                          improved our production efficiency. Highly reliable
+                          and durable, and it requires minimal maintenance.
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">Elango.M</h5>
+                            <span>Namakkal, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-  <!-- Hero Section -->
-  <header>
-    <div class="container">
-      <h1 data-aos="fade-up">Welcome to Our Landing Page</h1>
-      <p data-aos="fade-up" data-aos-delay="200">
-        A simple Bootstrap + AOS animation setup
-      </p>
-      <a href="#features" class="btn btn-main mt-3" data-aos="zoom-in" data-aos-delay="400">Get Started</a>
-    </div>
-  </header>
+                <!-- Testimonial 2 – 4.5 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/dtf-2.jpg"
+                        alt="Dhinesh"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star-half-alt text-warning"></i>
+                        </div>
+                        <p>
+                          The DTF Printer has revolutionized our custom apparel
+                          production. Prints are vibrant, precise, and
+                          long-lasting. It’s easy to operate, low-maintenance,
+                          and has significantly boosted our output efficiency!
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">Dhinesh</h5>
+                            <span>Punjaipuliampatti, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-  <!-- Features Section -->
-  <section id="features">
-    <div class="container text-center">
-      <h2 data-aos="fade-up">Features</h2>
-      <div class="row mt-4">
-        <div class="col-md-4" data-aos="fade-right">
-          <div class="p-4 border rounded bg-white">Feature 1</div>
+                <!-- Testimonial 3 – 4 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/fabric.jpg"
+                        alt="Vijay T"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-secondary"></i>
+                        </div>
+                        <p>
+                          The Fabric Printing Machine we purchased (2 Units)
+                          produces vibrant, precise designs on every fabric.
+                          Maintenance is simple, and it has greatly improved our
+                          production efficiency!
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">Vijay T</h5>
+                            <span>Kuthalam, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 4 – 5 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/i.jpeg"
+                        alt="Mani Mohan"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p>
+                          Thanks to these Industrial Machines, our manufacturing
+                          speed and accuracy have greatly improved. Maintenance
+                          is simple, and performance remains top-notch.
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">Mani Mohan</h5>
+                            <span>Dharmapuri, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 5 – 4.5 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/chain link.jpg"
+                        alt="Saran"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star-half-alt text-warning"></i>
+                        </div>
+                        <p>
+                          The Chain Link Wire Machine we purchased has greatly
+                          boosted our production capacity. Maintenance is
+                          simple, and it delivers consistent, high-quality wire
+                          mesh.
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">Saran</h5>
+                            <span>Dharmapuri, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 6 – 4 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/chain 2.jpeg"
+                        alt="VijaymahindarS"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-secondary"></i>
+                        </div>
+                        <p>
+                          The Chain Link Fence Making Machine we purchased (2
+                          Units) has significantly improved our fence
+                          production. Maintenance is easy, and the output is
+                          precise and durable.
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">VijaymahindarS</h5>
+                            <span>Salem, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 7 – 5 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/sheet.jpg"
+                        alt="Loganathan.N"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p>
+                          We love our Sheet Roll Forming Machine! It’s
+                          efficient, delivers flawless sheets, doesn’t require
+                          much maintenance, increases our production speed, and
+                          ensures consistent high-quality output. Makes our work
+                          much easier!
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">Loganathan.N</h5>
+                            <span>Kanchipuram, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 8 – 4.5 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/cnc.jpg"
+                        alt="Ravi Chandran"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star-half-alt text-warning"></i>
+                        </div>
+                        <p>
+                          The CNC Engraving Machine (2 Units) provides precise,
+                          consistent engravings across various materials.
+                          Regular calibration and lubrication ensure long-term
+                          reliability.
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">Ravi Chandran</h5>
+                            <span>Chennai, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial 9 – 4 stars -->
+                <div class="testimonial-item">
+                  <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                      <img
+                        class="img-fluid rounded"
+                        src="img/chain 2.jpeg"
+                        alt="Vivekananda"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <div class="testimonial-text">
+                        <div class="mb-2 stars">
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-warning"></i>
+                          <i class="fa fa-star text-secondary"></i>
+                        </div>
+                        <p>
+                          The Laser Cutter provides clean, accurate cuts across
+                          various materials. Maintenance is simple, it has
+                          greatly improved our workflow, boosts production
+                          speed, and ensures consistent high-quality output.
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                          <div
+                            class="quote-icon bg-light text-secondary flex-shrink-0"
+                          >
+                            <i class="fa fa-quote-right fa-2x"></i>
+                          </div>
+                          <div class="ps-3">
+                            <h5 class="mb-0">Vivekananda</h5>
+                            <span>Coimbatore, Tamil Nadu</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 col-lg-5"
+              data-aos="fadeIn"
+              data-aos-delay="0.1s"
+            >
+              <!-- Company Highlights -->
+              <section
+                id="highlights"
+                class="py-4"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <div class="container">
+                  <h2
+                    class="mb-4"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                    data-aos-delay="200"
+                  >
+                    Why Choose Us<span class="glow-questionmark">?</span>
+                  </h2>
+
+                  <ul class="highlights-list">
+                    <li
+                      data-aos="fade-left"
+                      data-aos-duration="800"
+                      data-aos-delay="300"
+                    >
+                      20+ years of industry experience
+                    </li>
+                    <li
+                      data-aos="fade-left"
+                      data-aos-duration="800"
+                      data-aos-delay="400"
+                    >
+                      Advanced manufacturing facility
+                    </li>
+                    <li
+                      data-aos="fade-left"
+                      data-aos-duration="800"
+                      data-aos-delay="500"
+                    >
+                      Customization as per client needs
+                    </li>
+                    <li
+                      data-aos="fade-left"
+                      data-aos-duration="800"
+                      data-aos-delay="600"
+                    >
+                      International quality standards
+                    </li>
+                    <li
+                      data-aos="fade-left"
+                      data-aos-duration="800"
+                      data-aos-delay="700"
+                    >
+                      Skilled team of engineers &amp; technicians
+                    </li>
+                    <li
+                      data-aos="fade-left"
+                      data-aos-duration="800"
+                      data-aos-delay="800"
+                    >
+                      Timely delivery and reliable support
+                    </li>
+                    <li
+                      data-aos="fade-left"
+                      data-aos-duration="800"
+                      data-aos-delay="900"
+                    >
+                      Trusted by 500+ businesses across India
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up">
-          <div class="p-4 border rounded bg-white">Feature 2</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-md-12 col-lg-7">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 20px;
+                "
+              >
+                <div>
+                  <h5 style="font-weight: bold; color: #d7c49a">
+                    Years of Excellence, Business Success
+                  </h5>
+                </div>
+                <div class="highlight-stats d-flex gap-4">
+                  <div
+                    class="stat-item text-center"
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                    "
+                  >
+                    <div class="stat-box">
+                      <h2
+                        class="stat-number"
+                        data-target="25"
+                        style="color: #d7c49a"
+                      >
+                        0+
+                      </h2>
+                    </div>
+                    <p>Years of Experience</p>
+                  </div>
+                  <div
+                    class="stat-item text-center"
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                    "
+                  >
+                    <div class="stat-box">
+                      <h2
+                        class="stat-number"
+                        data-target="5"
+                        style="color: #d7c49a"
+                      >
+                        0+
+                      </h2>
+                    </div>
+                    <p>Annual Turnover (Cr)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-5">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 20px;
+                  width: auto;
+                "
+              >
+                <div>
+                  <h4 style="color: #d7c49a; font-weight: 700">
+                    Explore Our Industrial Machines
+                  </h4>
+                </div>
+
+                <div>
+                  Discover Machines That Drive Efficiency and Excellence.
+                </div>
+                <div>
+                  <button class="glow-btn" id="nav-product">
+                    View Products
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-left">
-          <div class="p-4 border rounded bg-white">Feature 3</div>
+      </div>
+    </section>
+    <h4
+      style="
+        text-align: center;
+        font-weight: bolder;
+        font-size: 28px;
+        color: #d7c49a;
+        margin-top: 50px;
+      "
+    >
+      At Vizzac Laser, we build more than machines—we build possibilities.
+    </h4>
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Image Column -->
+          <div class="col-12 col-lg-5 d-flex justify-content-center">
+            <img
+              src="./img/final-batch.png"
+              class="img-fluid"
+              alt="badge"
+              style="max-width: 100%; height: auto"
+            />
+          </div>
+
+          <!-- Text Column -->
+          <div class="col-12 col-lg-7 d-flex justify-content-center">
+            <div class="d-flex flex-column justify-content-center h-100">
+              <h4 class="fw-semibold mb-3" style="font-size: 22px">
+                Vizzac Laser
+              </h4>
+              <p>
+                We are widely recognized in the industry for providing our
+                clients a range of industrial machines which are designed and
+                fabricated after extensive research of the requirements of
+                clients. These products are manufactured using the most advanced
+                technology available in the industry to enable optimum
+                functionality and efficiency. Our quality assurance ensures high
+                productivity and functionality before delivery. Catering to
+                numerous industries such as sculpture, shoes, electronic
+                components, advertisement, gifts, leather textiles, and stamps,
+                we are widely acclaimed as one of the leading organizations in
+                this domain.
+              </p>
+              <button
+                class="glow-btn d-inline-flex align-items-center gap-2 mt-2"
+                style="width: fit-content"
+                id="nav-gallery"
+              >
+                Every product, handled with care
+                <span style="font-size: 18px">⬇</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="text-center py-4  text-light">
-    <p>&copy; 2025 Your Company. All rights reserved.</p>
-  </footer>
+    <div class="container pb-5">
+      <div class="row">
+        <!-- Mission -->
+        <div class="col-md-12 col-lg-6">
+          <div class="black-box-mission-vission">
+            <h3 style="color: #d7c49a; font-weight: 700; margin-bottom: 15px">
+              Our Mission
+            </h3>
+            <p style="color: white; font-size: 16px; line-height: 1.6">
+              To deliver cutting-edge and innovative machinery solutions that
+              high-performance machinery solutions that empower entrepreneurs,
+              manufacturers, and industries to maximize efficiency,
+              productivity, and profitability.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="black-box-mission-vission">
+            <h3 style="color: #d7c49a; font-weight: 700; margin-bottom: 15px">
+              Our Vision
+            </h3>
+            <p style="color: white; font-size: 16px; line-height: 1.6">
+              To be a globally recognized leader in textile and industrial
+              machinery solutions, driving innovation and enabling businesses of
+              all scales to turn their ambitions into success stories.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Products -->
+    <div class="carousel-section" id="products">
+      <h2>Our Products</h2>
+      <p>Advanced Machinery Solutions for Modern Industries</p>
 
-  <!-- AOS Animation Script -->
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,  // animation duration
-      once: true       // animation happens only once
-    });
-  </script>
-</body>
+      <div class="carousel-container">
+        <!-- <button id="prevBtn" class="glow-arrow-btn">&lt;</button>
+        <button id="nextBtn" class="glow-arrow-btn">&gt;</button> -->
+
+        <div id="carouselWrapper">
+          <!-- Repeat card structure here -->
+          <!-- Card 1 -->
+          <div class="carousel-card">
+            <img
+              src="./assets/img/Laser Machine.webp"
+              alt=""
+              style="width: 100%; height: 250px; object-fit: cover"
+            />
+            <h3 style="margin: 1rem 0 0.5rem; font-size: 1.125rem">
+              Laser Machine
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.5; padding: 0 0.5rem">
+              Performs precise cutting, engraving, and marking on a variety of
+              materials.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+
+          <div class="carousel-card">
+            <img
+              src="./assets/img/CNC Brass & aluminum die making.webp"
+              alt=""
+              style="width: 100%; height: 250px; object-fit: cover"
+            />
+            <h3 style="margin: 1rem 0 0.5rem; font-size: 1.125rem">
+              CNC Brass
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.5; padding: 0 0.5rem">
+              Cuts and shapes brass and aluminum to create precise dies for
+              manufacturing.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+
+          <div class="carousel-card">
+            <img
+              src="./assets/img/Co2 Laser Cutter.webp"
+              alt=""
+              style="width: 100%; height: 250px; object-fit: cover"
+            />
+            <h3 style="margin: 1rem 0 0.5rem; font-size: 1.125rem">
+              Co2 Laser Cutter
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.5; padding: 0 0.5rem">
+              Cuts and engraves materials like wood, acrylic, and plastics with
+              high precision.
+            </p>
+          </div>
+
+          <div class="carousel-card">
+            <img
+              src="./assets/img/mouldmakingmachine.png"
+              alt=""
+              style="width: 100%; height: 250px; object-fit: cover"
+            />
+            <h3 style="margin: 1rem 0 0.5rem; font-size: 1.125rem">
+              Mould Making Machine
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.5; padding: 0 0.5rem">
+              Cuts and shapes metal , high-quality molds for manufacturing
+              components
+            </p>
+          </div>
+          <div class="carousel-card">
+            <img
+              src="./assets/img/CNC Router.webp"
+              alt=""
+              style="width: 100%; height: 250px; object-fit: cover"
+            />
+            <h3 style="margin: 1rem 0 0.5rem; font-size: 1.125rem">
+              CNC Router
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.5; padding: 0 0.5rem">
+              Cuts and engraves materials like wood, acrylic, and plastics with
+              high precision.
+            </p>
+          </div>
+          <div class="carousel-card">
+            <img
+              src="./assets/img/dftflimcuttingmachine.png"
+              alt=""
+              style="width: 100%; height: 250px; object-fit: cover"
+            />
+            <h3 style="margin: 1rem 0 0.5rem; font-size: 1.125rem">
+              DTF Film Cutting
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.5; padding: 0 0.5rem">
+              Cuts Direct-to-Film transfer sheets accurately printing and
+              garment applications
+            </p>
+          </div>
+
+          <div class="carousel-card">
+            <img
+              src="./assets/img/DOUBLE WIRE FULLYAUTOMATICCHAIN LINK FENCE MACHINE.png"
+              alt=""
+              style="width: 100%; height: 250px; object-fit: cover"
+            />
+            <h3 style="margin: 1rem 0 0.5rem; font-size: 1.125rem">
+              Double Wire machine
+            </h3>
+            <p style="font-size: 0.875rem; line-height: 1.5; padding: 0 0.5rem">
+              Automatically weaves double-wire mesh to efficiently produce
+              durable chain-link fences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button id="enquirebtn" class="glow-btn">Enquire Now</button>
+    </div>
+
+    <section class="contact-industries py-6 bg-light-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Column: Contact Form -->
+          <div class="col-lg-4" id="contact-form">
+            <h3 class="mb-4 text-black">
+              Need expert advice or a custom solution? Contact
+              <strong>Vizzac Laser </strong>now!
+            </h3>
+
+            <!-- IMPORTANT: add action + method -->
+            <form id="contactForm" action="#" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullName"
+                  name="fullName"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  name="subject"
+                  placeholder="Enter subject"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Enter your message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-offer">Submit</button>
+            </form>
+          </div>
+
+          <!-- Center Column: Image -->
+          <div class="col-lg-4 text-center">
+            <img
+              src="./assets/Choose-pana.png"
+              class="img-fluid"
+              alt="Vizzac Laser"
+            />
+          </div>
+
+          <!-- Right Column: Industries Heading -->
+          <div class="col-lg-4 text-lg-end mt-4 mt-lg-0 industries">
+            <h2 class="fw-bold mb-4">Industries We Serve</h2>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center mb-3">
+                <span class="industry-icon bg-primary text-black me-3">🧵</span>
+                <span class="text-black fw-semibold"
+                  >Textile & Garment Industry</span
+                >
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <span class="industry-icon bg-warning text-white me-3">⚙️</span>
+                <span class="text-black fw-semibold"
+                  >Metal Processing & Fabrication</span
+                >
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <span class="industry-icon bg-success text-black me-3">🏗️</span>
+                <span class="text-black fw-semibold"
+                  >Construction & Infrastructure</span
+                >
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <span class="industry-icon bg-danger text-black me-3">🚗</span>
+                <span class="text-black fw-semibold"
+                  >Automotive & Engineering</span
+                >
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <span class="industry-icon bg-info text-black me-3">🪑</span>
+                <span class="text-black fw-semibold"
+                  >Furniture & Interiors</span
+                >
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <span class="industry-icon bg-secondary text-black me-3"
+                  >🏭</span
+                >
+                <span class="text-black fw-semibold"
+                  >General Industrial Manufacturing</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Vizzac Laser Gallery Section ===== -->
+    <section
+      class="vizzac-gallery py-5"
+      id="gallery"
+      style="background: #fffbf3"
+    >
+      <div class="container">
+        <!-- Quote / Mission Statement -->
+        <h2 class="text-center fw-bold mb-5" style="color: #222">
+          Powering Industries With Precision – Vizzac Laser Shapes the Future of
+          Manufacturing
+        </h2>
+
+        <!-- Image Grid -->
+        <div class="row g-4">
+          <!-- <div class="col-sm-6 col-lg-4">
+            <img
+              src="./assets/gallery/delivery6.jpg"
+              alt="Laser Machine 1"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div> -->
+          <div class="col-sm-12 col-lg-12">
+            <img
+              src="./assets/gallery/product3.jpg"
+              alt="Laser Machine 2"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+          <!-- <div class="col-sm-6 col-lg-4">
+            <img
+              src="./assets/gallery/delivery2.jpg"
+              alt="Laser Machine 3"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div> -->
+          <div class="col-sm-6 col-lg-4">
+            <img
+              src="./assets/gallery/delivery8.jpg"
+              alt="Laser Machine 4"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <img
+              src="./assets/gallery/delivery7.jpg"
+              alt="Laser Machine 5"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <img
+              src="./assets/gallery/delivery2.jpg"
+              alt="Laser Machine 6"
+              class="img-fluid rounded shadow-sm"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 1rem">
+      <div style="text-align: center; margin-top: 1rem"></div>
+    </div>
+    <div class="offer-banner">
+      <div class="offer-text">
+        <span class="price">
+          <strong class="new">Quality You Can Trust</strong>
+          <span class="old">Service You Can Rely On</span>
+        </span>
+      </div>
+      <a href="tel:+918048601652" class="btn-offer"
+        ><i class="fa-solid fa-phone"></i> +91 8048601652</a
+      >
+    </div>
+    <!-- Responsive Full-Width Google Map -->
+    <section class="map-section">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.2317618077195!2d77.33506107369652!3d11.096097189072726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9070b33ee2e6b%3A0xe2022c25c1715825!2sVizzac%20Laser!5e0!3m2!1sen!2sin!4v1758967442327!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center pt-0 pb-10 text-light">
+      <p>
+        Copyright © 2025 Vizzac Laser | Developed By
+        <a href="https://www.paletteproduction.com/">PALETTE PRODUCTION</a>
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000, once: true });
+    </script>
+    <!-- Required JS (place before closing </body>) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- testimonial  -->
+    <script>
+      AOS.init({ duration: 1000, once: true });
+
+      $(document).ready(function () {
+        $(".testimonial-carousel").owlCarousel({
+          items: 1,
+          loop: true,
+          margin: 20,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          smartSpeed: 800,
+          dots: false, // hide dots
+          nav: true, // enable arrows
+          navText: [
+            '<i class="fa fa-chevron-left text-white fs-4"></i>',
+            '<i class="fa fa-chevron-right text-white fs-4"></i>',
+          ],
+        });
+      });
+    </script>
+
+    <!-- counters -->
+
+    <script>
+      const countersno = document.querySelectorAll(".stat-number");
+
+      countersno.forEach((counter) => {
+        const updateCount = () => {
+          const target = +counter.getAttribute("data-target");
+          const count = +counter.innerText.replace("+", ""); // remove plus during counting
+          const increment = target / 100;
+
+          if (count < target) {
+            counter.innerText = Math.ceil(count + increment) + "+";
+            setTimeout(updateCount, 30);
+          } else {
+            counter.innerText = target + "+";
+          }
+        };
+
+        updateCount();
+      });
+    </script>
+
+    <!-- Products -->
+
+    <script>
+      const wrapper = document.getElementById("carouselWrapper");
+      let cards = Array.from(wrapper.children);
+
+      function getVisibleCards() {
+        const w = window.innerWidth;
+        if (w <= 480) return 1;
+        if (w <= 768) return 2;
+        if (w <= 1024) return 3;
+        return 4;
+      }
+
+      let visibleCards = getVisibleCards();
+      let cardWidth = cards[0].offsetWidth;
+
+      // Clone for seamless loop
+      function cloneCards() {
+        const headClones = cards
+          .slice(0, visibleCards)
+          .map((c) => c.cloneNode(true));
+        const tailClones = cards
+          .slice(-visibleCards)
+          .map((c) => c.cloneNode(true));
+        headClones.forEach((c) => wrapper.appendChild(c));
+        tailClones.forEach((c) => wrapper.insertBefore(c, wrapper.firstChild));
+      }
+      cloneCards();
+
+      cards = Array.from(wrapper.children);
+      let index = visibleCards;
+      let currentX = -index * cardWidth;
+
+      const speed = 0.5; // continuous scroll speed
+      let isPaused = false;
+      let animationId;
+
+      // --- Continuous Scroll ---
+      function animate() {
+        if (!isPaused && !isDragging) {
+          currentX -= speed;
+          wrapper.style.transform = `translateX(${currentX}px)`;
+          const totalWidth = cardWidth * cards.length;
+          if (Math.abs(currentX) >= totalWidth - cardWidth * visibleCards) {
+            currentX = -cardWidth * visibleCards;
+          }
+        }
+        animationId = requestAnimationFrame(animate);
+      }
+
+      wrapper.style.display = "flex";
+      wrapper.style.willChange = "transform";
+      wrapper.style.transition = "none";
+      wrapper.style.transform = `translateX(${currentX}px)`;
+
+      animationId = requestAnimationFrame(animate);
+
+      // --- Hover pause ---
+      wrapper.addEventListener("mouseenter", () => {
+        isPaused = true;
+      });
+      wrapper.addEventListener("mouseleave", () => {
+        isPaused = false;
+      });
+
+      // --- Drag/Swipe support ---
+      let isDragging = false;
+      let startX = 0;
+      let dragStart = 0;
+
+      function startDrag(e) {
+        isDragging = true;
+        isPaused = true; // also pause auto scroll
+        startX = e.pageX || e.touches[0].pageX;
+        dragStart = currentX;
+      }
+      function onDrag(e) {
+        if (!isDragging) return;
+        const x = e.pageX || e.touches[0].pageX;
+        const dx = x - startX;
+        currentX = dragStart + dx;
+        wrapper.style.transform = `translateX(${currentX}px)`;
+      }
+      function endDrag() {
+        if (!isDragging) return;
+        isDragging = false;
+        isPaused = false; // resume auto scroll
+      }
+
+      wrapper.addEventListener("mousedown", startDrag);
+      wrapper.addEventListener("touchstart", startDrag);
+
+      window.addEventListener("mousemove", onDrag);
+      window.addEventListener("touchmove", onDrag);
+
+      window.addEventListener("mouseup", endDrag);
+      window.addEventListener("touchend", endDrag);
+
+      // --- Handle resize ---
+      window.addEventListener("resize", () => {
+        visibleCards = getVisibleCards();
+        cardWidth = wrapper.children[0].offsetWidth;
+      });
+    </script>
+
+    <script>
+      // Bootstrap-style client-side validation + demo submit handling
+      (function () {
+        "use strict";
+
+        const form = document.getElementById("vizzacContactForm");
+        const alertBox = document.getElementById("formAlert");
+
+        form.addEventListener(
+          "submit",
+          function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            if (!form.checkValidity()) {
+              form.classList.add("was-validated");
+              return;
+            }
+
+            // Demo: show a success message (replace with real submit logic)
+            alertBox.classList.remove("d-none");
+            form.reset();
+            form.classList.remove("was-validated");
+
+            // Optionally hide alert after a few seconds
+            setTimeout(() => {
+              alertBox.classList.add("d-none");
+            }, 6000);
+
+            // Replace below with actual fetch/ajax call to your backend:
+            /*
+      fetch('/contact', {
+        method: 'POST',
+        body: new FormData(form)
+      }).then(...).catch(...);
+      */
+          },
+          false
+        );
+      })();
+    </script>
+    <script>
+      document.getElementById("nav-product").addEventListener("click", () => {
+        const target = document.getElementById("products");
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+    <script>
+      document.getElementById("enquirebtn").addEventListener("click", () => {
+        const target = document.getElementById("contact-form");
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+    <script>
+      document.getElementById("nav-gallery").addEventListener("click", () => {
+        const target = document.getElementById("gallery");
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+    <!-- FOR MAIL -->
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault(); // stop normal page reload
+
+          const formData = new FormData(this);
+
+          fetch("contact.php", {
+            method: "POST",
+            body: formData,
+          })
+            .then((res) => res.text())
+            .then((data) => {
+              // show PHP response as an alert
+              alert(data.trim());
+              // optionally clear form
+              this.reset();
+            })
+            .catch((err) => {
+              alert("Error sending message: " + err);
+            });
+        });
+    </script>
+  </body>
 </html>
